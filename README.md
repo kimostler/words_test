@@ -7,8 +7,7 @@ Given a dictionary, words_test generates two output files, 'sequences' and 'word
 ## Motivation
 
 ## Installation
-Ruby version 2.2.3p173 (no other runtime dependencies)
-
+Ruby version 2.2.3p173 (no other runtime dependencies)  
 Download the lib and data folders to a words_test directory
 
 
@@ -22,21 +21,16 @@ Assumptions:
 - execute from words_test directory
 - the specified input file must reside on the local file system
 
-
 ## API Reference
-
 
 ## Tests
 
-From the words_test directory, execute rspec:
-
+From the words_test directory, execute rspec:  
 rspec
 
 
-To generate coverage while running tests:
-
-bundle install
-
+To generate coverage while running tests:  
+bundle install  
 bundle exec rspec
 
 
