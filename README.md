@@ -8,14 +8,14 @@ Given a dictionary, words_test generates two output files, 'sequences' and 'word
 
 ## Installation
 Ruby version 2.2.3p173 (no other runtime dependencies)
+
 Download the lib and data folders to a words_test directory
 
 
-Usage:
+Usage:  
 ruby lib/words_test.rb (dictionary_file_name)
 
-
-Example:
+Example:  
 ruby lib/words_test.rb data/dictionary.txt
 
 Assumptions:
