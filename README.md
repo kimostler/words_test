@@ -8,7 +8,8 @@ Given a dictionary, words_test generates two output files, 'sequences' and 'word
 
 ## Installation
 Ruby version 2.2.3p173 (no other runtime dependencies)  
-Download the lib and data folders to a words_test directory
+Download the project and extract it into a working directory  
+Change the current directory to the working directory  
 
 
 Usage:  
