@@ -7,9 +7,11 @@ Given a dictionary, words_test generates two output files, 'sequences' and 'word
 ## Motivation
 
 ## Installation
-Ruby version 2.2.3p173 (no other runtime dependencies)  
-Download the project and extract it into a working directory  
-Change the current directory to the working directory  
+Setup the environment:  
+- the code was tested using Ruby version 2.2.3p173
+- there are no other runtime dependencies
+- download the project and extract it into a working directory
+- change the current directory to the working directory
 
 
 Usage:  
@@ -26,14 +28,13 @@ Assumptions:
 
 ## Tests
 
-From the words_test directory, execute rspec:  
-rspec
-
-
-To generate coverage while running tests:  
+If SimpleCov is not installed, run bundle install:  
 bundle install  
-bundle exec rspec
 
+From the words_test directory, execute rspec using the bundle version if necessary:  
+rspec  
+OR  
+bundle exec rspec
 
 ## Contributors
 
